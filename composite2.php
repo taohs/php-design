@@ -16,7 +16,7 @@ class Army extends Unit {
 
     }
     function bombardStrength(){
-        asdfasfLL
+
     }
 }
 $a = new Army();
