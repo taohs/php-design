@@ -22,6 +22,10 @@ class Army extends Unit {
 
     }
 }
+$test = array_udiff( array(1,1,3), array(0,1,3), function ( $a, $b ) { return ( $a === $b )? 0: 1; } );
+var_dump($test);
+var_dump(array_diff(array(1,1,3),array(2,1,3)));
+die();
 $a = new Army();
 $b = $a;
 $c = new Army();
